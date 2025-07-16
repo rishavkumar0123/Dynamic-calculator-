@@ -22,7 +22,7 @@ function solve() {
     result = Number(parts[0]) / Number(parts[1]);
   }
 
-  document.getElementById("result").value = result;
+  document.getElementById("result").value = val + "=" +result;
 }
 function clr(){
     document.getElementById("result").value = "";
